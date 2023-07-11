@@ -9,7 +9,7 @@ body {
 }
 
 .layout_padding2 {
-  padding: 45px 0;
+  padding: 115px 0 0 0;
 }
 
 .layout_padding2-top {
@@ -374,6 +374,7 @@ a:focus {
   background-color: #041858;
   color: #ffffff;
   text-align: center;
+  margin-bottom: -280px;
 }
 
 .service_section .heading_container {
@@ -416,7 +417,7 @@ a:focus {
 }
 
 .service_section .service_container .box .img-box img {
-  width: 75px;
+  width: 250px;
 }
 
 .service_section .service_container .box .detail-box {
@@ -869,7 +870,8 @@ a:focus {
 }
 
 .info_section .info_form .social_box {
-  margin-top: 35px;
+  margin-top: 15px;
+  margin-left: -6px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

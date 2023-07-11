@@ -3,6 +3,11 @@ $black: #000000;
 $primary1: #d8bf36;
 $primary2: #041858;
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 @mixin main-font {
   font-family: "Poppins", sans-serif;
 }

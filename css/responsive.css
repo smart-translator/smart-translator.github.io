@@ -59,15 +59,15 @@
     bottom: 11%;
   }
 
-  .about_section .row {
+  .about .row {
     flex-direction: column-reverse;
   }
 
-  .about_section .detail-box {
+  .about .detail-box {
     margin-top: 45px;
   }
 
-  .about_section .img-box {
+  .about .img-box {
     margin-top: -115px;
   }
 

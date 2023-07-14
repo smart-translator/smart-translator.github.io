@@ -28,7 +28,8 @@ body {
   padding-bottom: 75px;
 }
 
-.heading_container {
+.heading_container_translator {
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,25 +39,16 @@ body {
           flex-direction: column;
   -webkit-box-align: start;
       -ms-flex-align: start;
-          align-items: flex-start;
+          align-items: center;
+}
+
+#smart_translator_logo {
+  width: 300px;
 }
 
 .heading_container h2 {
   position: relative;
   font-weight: bold;
-}
-
-.heading_container h2::before {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: #d8bf36;
-  top: 50%;
-  right: -30px;
-  border-radius: 100%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
 }
 
 /*header section*/
@@ -343,21 +335,21 @@ a:focus {
           transform: translateY(-10px);
 }
 
-.about_section .row {
+.about .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.about_section .img-box img {
+.about .img-box img {
   max-width: 100%;
 }
 
-.about_section .detail-box p {
+.about .detail-box p {
   margin-top: 25px;
 }
 
-.about_section .detail-box a {
+.about .detail-box a {
   display: inline-block;
   padding: 10px 35px;
   background-color: #d8bf36;
@@ -366,7 +358,7 @@ a:focus {
   margin: 25px 0 45px 0;
 }
 
-.about_section .detail-box a:hover {
+.about .detail-box a:hover {
   background-color: #e0cd61;
 }
 
@@ -377,6 +369,7 @@ a:focus {
 }
 
 .service_section .heading_container {
+  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -415,9 +408,13 @@ a:focus {
   border-radius: 15px;
 }
 
-.service_section .service_container .box .img-box img {
+.service_section .service_container .box .img-box a {
   width: -webkit-fill-available;
 }
+.service_section .service_container .box .img-box a img {
+  width: -webkit-fill-available;
+}
+
 
 .service_section .service_container .box .detail-box {
   margin-top: 15px;
@@ -685,18 +682,18 @@ a:focus {
   background-position: right top;
 }
 
-.contact_section {
+.contacts {
   color: #ffffff;
 }
 
-.contact_section .heading_container {
+.contacts .heading_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 45px;
 }
 
-.contact_section form .form-control {
+.contacts form .form-control {
   border: none;
   background-color: #ffffff;
   outline: none;
@@ -708,7 +705,7 @@ a:focus {
   margin: 5px 0;
 }
 
-.contact_section button {
+.contacts button {
   display: inline-block;
   padding: 8px 35px;
   background-color: #d8bf36;
@@ -723,7 +720,7 @@ a:focus {
   font-size: 15px;
 }
 
-.contact_section button:hover {
+.contacts button:hover {
   background-color: #e0cd61;
 }
 

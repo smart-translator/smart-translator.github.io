@@ -39,7 +39,6 @@ body {
           flex-direction: column;
   -webkit-box-align: start;
       -ms-flex-align: start;
-          align-items: center;
 }
 
 #smart_translator_logo {
